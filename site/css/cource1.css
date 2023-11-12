@@ -1,0 +1,212 @@
+header{
+    display: flex;
+    justify-content: start;
+    background-color: blueviolet;
+    align-items: center
+}
+h1{
+    margin-right: 25%;
+    margin-left: 5%;
+    font-size:3vw;
+}
+h2{
+    width: 100%;
+    font-size:2vw;
+    text-align: center;
+}
+h2.nav{
+    width: 100%;
+    font-size:2vw;
+    text-align: center;
+}
+main{
+    display: flex;
+}
+footer{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    background-color: gray;
+}
+/* css ul */
+ul{
+    list-style-type: none;
+    padding: 0%;
+    margin: 0%;
+    display: flex;
+}
+ul.nav{
+    width: 10%;
+    flex-direction: column;
+    background-color: aqua;
+    align-items: center;
+}
+ul.pub{
+    width: 20%;
+    justify-content: start;
+    background-color: chartreuse;
+    flex-direction: column;
+    align-items: center;
+}
+ul.article{
+    display: flex;
+    justify-content: center;
+    height : 10%;
+    width: 100%;
+    margin-top: 5%;
+}
+ul.footer{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly
+}
+
+/* css div */
+div{
+    list-style-type: none;
+    display: flex;
+}
+div.pub{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+div.article{
+    display: flex;
+    width: 70%;
+    justify-content: center;
+    border: 2px solid;
+}
+div.millieu{
+    display: flex;
+    width: 70%;
+    background-color: blue;
+    flex-direction: column;
+    align-items: center;
+}
+div.topUn{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 40%;
+}
+div.topCinque{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    width: 30%;
+    
+}
+div.info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly
+}
+div.positionArticle{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+}
+div.nav{
+    display: flex;
+    width: 10%;
+    flex-direction: column;
+    background-color: aqua;
+    align-items: center;
+}
+div.sponsor{
+    display: flex;
+    flex-direction: column;
+    align-items: center
+}
+div.reseaux{
+    display: flex;
+    flex-direction: column;
+    align-items: center
+}
+
+/* css a */
+a{
+    font-size: 2vw;
+}
+a.race{
+    margin-right: 5%;
+}
+
+/* css img */
+img.header{
+    width : 10%;
+    height : auto;
+    justify-self: flex-start;
+}
+img.pub{
+    width : 80%;
+    height : auto;
+    margin-bottom: 50%;
+}
+img.imgPilote{
+    width : 30%;
+    height : auto;
+}
+img.imgDrapeau{
+    width : 10%;
+    height : 50%;
+    margin-top: 8%;
+}
+
+/* css li */
+li{
+    font-size: 2vw;
+}
+li.navBt{
+    padding: 50%;
+}
+li.nomPilotes{
+    padding: 5%;
+}
+
+
+@media screen and (max-width: 1024px){/* Nouvelles règles si la fenêtre fait  1024px de large ou moins */
+    main{
+        display: flex;
+        flex-direction: column;
+    }
+    div.nav{
+        flex-direction:row;
+        display: flex;
+        width: 90%;
+    }
+    div.millieu{
+        width: 100%;
+    }
+    div.pub{
+        flex-direction: row;
+    }
+    ul.nav{
+        flex-direction:row;
+        display: flex;
+        width: 100%;
+    }
+    ul.pub{
+        flex-direction: row;
+        width: 100%;
+    }
+    h2.nav{
+        width: 10%;
+        font-size:2vw;
+        text-align: center;
+    }
+    li.navBt{
+        padding: 1%;
+    }
+    img.pub{
+        width : 10%;
+        height : auto;
+        margin-bottom: 0%;
+        margin-right: 5%;
+    }
+}
